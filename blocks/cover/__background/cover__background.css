@@ -1,0 +1,32 @@
+.cover__background {
+  background: url(../../../images/cover-trains.jpg); /*Изображение железнодорожной станции*/
+  max-width: 100%;
+  min-height: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+      min-height: 57.81vw;
+    }
+}
+
+.cover__background::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}

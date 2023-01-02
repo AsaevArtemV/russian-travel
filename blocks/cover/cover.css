@@ -1,0 +1,26 @@
+.cover {
+  max-width: 1148px;
+  max-height: 740px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+      max-width: 1024px;
+      max-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+      max-width: 768px;
+      max-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+      max-width: 320px;
+      max-height: 200px;
+    }
+}
