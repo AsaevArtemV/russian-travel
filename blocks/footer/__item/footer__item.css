@@ -1,0 +1,7 @@
+.footer__item {
+  margin-right: 18px;
+}
+
+.footer__item:last-child {
+  margin: 0;
+}

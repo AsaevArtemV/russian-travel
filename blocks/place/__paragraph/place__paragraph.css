@@ -24,9 +24,13 @@
     }
 }
 
+@media screen and (max-width: 637px) {
+  .place__paragraph {
+    gap: 25px 16px;
+  }
+}
 @media screen and (max-width: 320px) {
     .place__paragraph {
       max-width: 288px;
-      gap: 25px 16px;
     }
 }
