@@ -18,6 +18,7 @@
     .place {
       max-width: 720px;
       gap: 48px 28px;
+      margin: 72px 0;
     }
 }
 

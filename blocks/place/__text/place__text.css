@@ -7,16 +7,17 @@
  }
 
  @media screen and (max-width: 1024px) {
-  .place__text {
-    max-width: 456px;
-  }
+    .place__text {
+      max-width: 456px;
+      gap: 27px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .place__text {
-    max-width: 352px;
-    gap: 27px;
-  }
+    .place__text {
+      max-width: 352px;
+      gap: 25px;
+    }
 }
 
 @media screen and (max-width: 637px) {
@@ -26,9 +27,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__text {
-    max-width: 288px;
-    margin-left: 16px;
-    gap: 25px;
-  }
+    .place__text {
+      max-width: 288px;
+    }
 }
