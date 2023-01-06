@@ -8,6 +8,13 @@
   transition: opacity 0.5s;
 }
 
+@media screen and (max-width: 475px) {
+    .footer__link {
+      font-size: 24px;
+      line-height: 24px;
+    }
+}
+
 .footer__link:hover {
   opacity: 0.8;
 }

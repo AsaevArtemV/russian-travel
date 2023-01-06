@@ -23,7 +23,6 @@
     .footer {
       display: grid;
       max-width: 160px;
-      max-height: 310px;
       margin: 64px 118px 24px 16px;
       flex-direction: column;
     }

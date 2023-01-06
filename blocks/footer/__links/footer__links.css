@@ -8,8 +8,8 @@
 }
 
 @media screen and (max-width: 475px) {
-  .footer__links {
-    display: grid;
-    gap: 32px;
-  }
+    .footer__links {
+      display: grid;
+      gap: 32px;
+    }
 }

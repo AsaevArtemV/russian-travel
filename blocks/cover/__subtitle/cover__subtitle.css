@@ -9,7 +9,14 @@
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+    .cover__subtitle {
+      font-size: calc(0.875rem + (100vw - 320px) / (768 - 320) * (18 - 14));
+      line-height: calc(18 / 16);
+    }
+}
+
+@media screen and (max-width: 320px) {
     .cover__subtitle {
       max-width: 288px;
       font-size: 14px;

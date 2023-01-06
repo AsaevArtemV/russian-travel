@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   max-width: 690px;
-  margin: 92px 442px 0 148px;
+  margin: 91px 442px 0 148px;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-      margin: 92px 286px 0 48px;
+      margin-right: 286px;
+      margin-left: 48px;
     }
 }
 

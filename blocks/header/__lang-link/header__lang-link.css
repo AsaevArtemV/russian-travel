@@ -1,14 +1,9 @@
 .header__lang-link {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  list-style: none;
-  margin-bottom: 6px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  padding: 0;
+  text-decoration: none;
   color: #FFFFFF;
   transition: opacity 0.5s;
 }
@@ -18,8 +13,8 @@
 }
 
 @media screen and (max-width: 320px) {
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 20px;
-  }
+    .header__lang-link {
+      font-size: 18px;
+      line-height: 20px;
+    }
 }
